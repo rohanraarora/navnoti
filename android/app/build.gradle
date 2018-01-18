@@ -95,7 +95,7 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.1"
+    buildToolsVersion "25.0.3"
 
     defaultConfig {
         applicationId "com.navnoti"
@@ -137,10 +137,7 @@ android {
 }
 
 dependencies {
-    compile 'com.google.firebase:firebase-messaging:10.2.6'
-    compile(project(':react-native-notifications')) {
-        exclude group: 'com.google.firebase', module: 'firebase-messaging'
-    }
+    compile project(':reactnativenotifications')
     compile project(':react-native-navigation')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:25.3.1"
@@ -153,4 +150,3 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
-apply plugin: 'com.google.gms.google-services'

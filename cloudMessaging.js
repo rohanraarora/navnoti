@@ -20,7 +20,6 @@ const setupAndroidListeners = () => {
   NotificationsAndroid.refreshToken();
   NotificationsAndroid.setNotificationOpenedListener(onNotificationOpened);
   NotificationsAndroid.setNotificationReceivedListener(onNotificationReceived);
-  NotificationsAndroid.consumeBackgroundQueue()
 };
 
 const onNotificationOpened = (notification) => {
