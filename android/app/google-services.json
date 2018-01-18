@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "95237648132",
+    "firebase_url": "https://navnoti.firebaseio.com",
+    "project_id": "navnoti",
+    "storage_bucket": "navnoti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95237648132:android:e73d75e7d0348076",
+        "android_client_info": {
+          "package_name": "com.navnoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95237648132-1ubrf1u0vi6mcujb5q1gkkj0551t10ga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navnoti",
+            "certificate_hash": "e2d82b841b925a7f0fa11cefe0a9fa8d538f3540"
+          }
+        },
+        {
+          "client_id": "95237648132-0m67l8rc3uqv093ipmct8505gdndsdpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6nMNr6QXWpyucBIJLaVG6phq_MtMvRQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95237648132-0m67l8rc3uqv093ipmct8505gdndsdpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
